@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "AlienTabBar"
   s.version      = "0.0.2"
-  s.summary      = "这是一个iOS的AlienTabBarSDK."
+  s.summary      = "AlienTabBarSDK."
   s.homepage     = "https://github.com/yJion/MyCocoaPods"
   s.license      = "MIT"
   s.author             = { "yJion" => "alienvvip@163.com" }
