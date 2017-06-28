@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yJion/MyCocoaPods.git", :tag => "0.0.3" }
   # s.source_files  = 'navigation/*'
   s.ios.vendored_framework   = 'Class/ios/AlienTabBar.framework'
-  s.frameworks = "UIKit", "Foundation"
+  # s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
 
 end
