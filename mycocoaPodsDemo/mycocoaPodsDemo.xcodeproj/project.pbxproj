@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9324F2531F03580200936998 /* Alien_FixNavigatioPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324F24D1F03580200936998 /* Alien_FixNavigatioPushViewController.m */; };
-		9324F2541F03580200936998 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324F24E1F03580200936998 /* UIViewController+BackButtonHandler.m */; };
-		9324F2551F03580200936998 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324F24F1F03580200936998 /* MainTabBarController.m */; };
+		939E0CB31F038FBD0024A292 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 939E0C7C1F038FBD0024A292 /* .swift-version */; };
+		939E0CB41F038FBD0024A292 /* AlienTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939E0C7E1F038FBD0024A292 /* AlienTabBar.framework */; };
 		93B8BCAE1F02343900839411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCAD1F02343900839411 /* main.m */; };
 		93B8BCB11F02343900839411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCB01F02343900839411 /* AppDelegate.m */; };
 		93B8BCB41F02343900839411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCB31F02343900839411 /* ViewController.m */; };
@@ -19,12 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9324F24D1F03580200936998 /* Alien_FixNavigatioPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien_FixNavigatioPushViewController.m; sourceTree = "<group>"; };
-		9324F24E1F03580200936998 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
-		9324F24F1F03580200936998 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
-		9324F2501F03580200936998 /* Alien_FixNavigatioPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien_FixNavigatioPushViewController.h; sourceTree = "<group>"; };
-		9324F2511F03580200936998 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
-		9324F2521F03580200936998 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		939E0C7C1F038FBD0024A292 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		939E0C7E1F038FBD0024A292 /* AlienTabBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlienTabBar.framework; sourceTree = "<group>"; };
 		93B8BCA91F02343900839411 /* mycocoaPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycocoaPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B8BCAD1F02343900839411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93B8BCAF1F02343900839411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,29 +37,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939E0CB41F038FBD0024A292 /* AlienTabBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9324F24C1F03580200936998 /* navigation */ = {
+		939E0C7B1F038FBD0024A292 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				9324F24D1F03580200936998 /* Alien_FixNavigatioPushViewController.m */,
-				9324F24E1F03580200936998 /* UIViewController+BackButtonHandler.m */,
-				9324F24F1F03580200936998 /* MainTabBarController.m */,
-				9324F2501F03580200936998 /* Alien_FixNavigatioPushViewController.h */,
-				9324F2511F03580200936998 /* MainTabBarController.h */,
-				9324F2521F03580200936998 /* UIViewController+BackButtonHandler.h */,
+				939E0C7C1F038FBD0024A292 /* .swift-version */,
+				939E0C7D1F038FBD0024A292 /* ios */,
 			);
-			path = navigation;
+			path = Class;
+			sourceTree = "<group>";
+		};
+		939E0C7D1F038FBD0024A292 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				939E0C7E1F038FBD0024A292 /* AlienTabBar.framework */,
+			);
+			path = ios;
 			sourceTree = "<group>";
 		};
 		93B8BCA01F02343900839411 = {
 			isa = PBXGroup;
 			children = (
-				9324F24C1F03580200936998 /* navigation */,
+				939E0C7B1F038FBD0024A292 /* Class */,
 				93B8BCAB1F02343900839411 /* mycocoaPodsDemo */,
 				93B8BCAA1F02343900839411 /* Products */,
 			);
@@ -161,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939E0CB31F038FBD0024A292 /* .swift-version in Resources */,
 				93B8BCBC1F02343900839411 /* LaunchScreen.storyboard in Resources */,
 				93B8BCB91F02343900839411 /* Assets.xcassets in Resources */,
 				93B8BCB71F02343900839411 /* Main.storyboard in Resources */,
@@ -174,10 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9324F2541F03580200936998 /* UIViewController+BackButtonHandler.m in Sources */,
 				93B8BCB41F02343900839411 /* ViewController.m in Sources */,
-				9324F2551F03580200936998 /* MainTabBarController.m in Sources */,
-				9324F2531F03580200936998 /* Alien_FixNavigatioPushViewController.m in Sources */,
 				93B8BCB11F02343900839411 /* AppDelegate.m in Sources */,
 				93B8BCAE1F02343900839411 /* main.m in Sources */,
 			);
@@ -303,10 +301,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/navigation",
+					"$(PROJECT_DIR)/Class/ios",
 				);
 				INFOPLIST_FILE = mycocoaPodsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphonesimulator/Pods-packager.build/Objects-normal/i386",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphonesimulator/Pods-packager.build/Objects-normal/x86_64",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphoneos/Pods-packager.build/Objects-normal/armv7",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphoneos/Pods-packager.build/Objects-normal/armv7s",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphoneos/Pods-packager.build/Objects-normal/arm64",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alien.mycocoaPodsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -320,10 +327,19 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/navigation",
+					"$(PROJECT_DIR)/Class/ios",
 				);
 				INFOPLIST_FILE = mycocoaPodsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphonesimulator/Pods-packager.build/Objects-normal/i386",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphonesimulator/Pods-packager.build/Objects-normal/x86_64",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphoneos/Pods-packager.build/Objects-normal/armv7",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphoneos/Pods-packager.build/Objects-normal/armv7s",
+					"$(PROJECT_DIR)/Class/build/Pods.build/Release-iphoneos/Pods-packager.build/Objects-normal/arm64",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alien.mycocoaPodsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
