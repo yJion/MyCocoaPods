@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9324F2531F03580200936998 /* Alien_FixNavigatioPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324F24D1F03580200936998 /* Alien_FixNavigatioPushViewController.m */; };
+		9324F2541F03580200936998 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324F24E1F03580200936998 /* UIViewController+BackButtonHandler.m */; };
+		9324F2551F03580200936998 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324F24F1F03580200936998 /* MainTabBarController.m */; };
 		93B8BCAE1F02343900839411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCAD1F02343900839411 /* main.m */; };
 		93B8BCB11F02343900839411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCB01F02343900839411 /* AppDelegate.m */; };
 		93B8BCB41F02343900839411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCB31F02343900839411 /* ViewController.m */; };
 		93B8BCB71F02343900839411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B8BCB51F02343900839411 /* Main.storyboard */; };
 		93B8BCB91F02343900839411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B8BCB81F02343900839411 /* Assets.xcassets */; };
 		93B8BCBC1F02343900839411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B8BCBA1F02343900839411 /* LaunchScreen.storyboard */; };
-		93CB64461F0254E500A6B81C /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 93CB64441F0254E500A6B81C /* .swift-version */; };
-		93CB64471F0254E500A6B81C /* Tbabar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB64451F0254E500A6B81C /* Tbabar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9324F24D1F03580200936998 /* Alien_FixNavigatioPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien_FixNavigatioPushViewController.m; sourceTree = "<group>"; };
+		9324F24E1F03580200936998 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		9324F24F1F03580200936998 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		9324F2501F03580200936998 /* Alien_FixNavigatioPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien_FixNavigatioPushViewController.h; sourceTree = "<group>"; };
+		9324F2511F03580200936998 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		9324F2521F03580200936998 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
 		93B8BCA91F02343900839411 /* mycocoaPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycocoaPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B8BCAD1F02343900839411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93B8BCAF1F02343900839411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,8 +35,6 @@
 		93B8BCB81F02343900839411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B8BCBB1F02343900839411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B8BCBD1F02343900839411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93CB64441F0254E500A6B81C /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		93CB64451F0254E500A6B81C /* Tbabar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tbabar.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +42,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CB64471F0254E500A6B81C /* Tbabar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9324F24C1F03580200936998 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9324F24D1F03580200936998 /* Alien_FixNavigatioPushViewController.m */,
+				9324F24E1F03580200936998 /* UIViewController+BackButtonHandler.m */,
+				9324F24F1F03580200936998 /* MainTabBarController.m */,
+				9324F2501F03580200936998 /* Alien_FixNavigatioPushViewController.h */,
+				9324F2511F03580200936998 /* MainTabBarController.h */,
+				9324F2521F03580200936998 /* UIViewController+BackButtonHandler.h */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
 		93B8BCA01F02343900839411 = {
 			isa = PBXGroup;
 			children = (
-				93CB64431F0254E500A6B81C /* navigation */,
+				9324F24C1F03580200936998 /* navigation */,
 				93B8BCAB1F02343900839411 /* mycocoaPodsDemo */,
 				93B8BCAA1F02343900839411 /* Products */,
 			);
@@ -83,15 +100,6 @@
 				93B8BCAD1F02343900839411 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		93CB64431F0254E500A6B81C /* navigation */ = {
-			isa = PBXGroup;
-			children = (
-				93CB64441F0254E500A6B81C /* .swift-version */,
-				93CB64451F0254E500A6B81C /* Tbabar.framework */,
-			);
-			path = navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93CB64461F0254E500A6B81C /* .swift-version in Resources */,
 				93B8BCBC1F02343900839411 /* LaunchScreen.storyboard in Resources */,
 				93B8BCB91F02343900839411 /* Assets.xcassets in Resources */,
 				93B8BCB71F02343900839411 /* Main.storyboard in Resources */,
@@ -167,7 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9324F2541F03580200936998 /* UIViewController+BackButtonHandler.m in Sources */,
 				93B8BCB41F02343900839411 /* ViewController.m in Sources */,
+				9324F2551F03580200936998 /* MainTabBarController.m in Sources */,
+				9324F2531F03580200936998 /* Alien_FixNavigatioPushViewController.m in Sources */,
 				93B8BCB11F02343900839411 /* AppDelegate.m in Sources */,
 				93B8BCAE1F02343900839411 /* main.m in Sources */,
 			);
