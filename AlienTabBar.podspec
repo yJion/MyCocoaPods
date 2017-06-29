@@ -9,15 +9,15 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AlienTabBar"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "AlienTabBarSDK."
   s.homepage     = "https://github.com/yJion/MyCocoaPods"
   s.license      = "MIT"
   s.author             = { "yJion" => "alienvvip@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/yJion/MyCocoaPods.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/yJion/MyCocoaPods.git", :tag => "0.0.4" }
   # s.source_files  = 'navigation/*'
-  s.ios.vendored_framework   = 'Class/ios/AlienTabBar.framework'
+  s.ios.vendored_framework   = 'Class/ios/Tbabar.framework'
   # s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
 

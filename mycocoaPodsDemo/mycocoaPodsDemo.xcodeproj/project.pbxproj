@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		939E0CB31F038FBD0024A292 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 939E0C7C1F038FBD0024A292 /* .swift-version */; };
-		939E0CB41F038FBD0024A292 /* AlienTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939E0C7E1F038FBD0024A292 /* AlienTabBar.framework */; };
+		930AF81C1F04ABAD003BFB11 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 930AF8191F04ABAD003BFB11 /* .swift-version */; };
+		930AF81D1F04ABAD003BFB11 /* Tbabar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AF81B1F04ABAD003BFB11 /* Tbabar.framework */; };
 		93B8BCAE1F02343900839411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCAD1F02343900839411 /* main.m */; };
 		93B8BCB11F02343900839411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCB01F02343900839411 /* AppDelegate.m */; };
 		93B8BCB41F02343900839411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8BCB31F02343900839411 /* ViewController.m */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		939E0C7C1F038FBD0024A292 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
-		939E0C7E1F038FBD0024A292 /* AlienTabBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlienTabBar.framework; sourceTree = "<group>"; };
+		930AF8191F04ABAD003BFB11 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		930AF81B1F04ABAD003BFB11 /* Tbabar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tbabar.framework; sourceTree = "<group>"; };
 		93B8BCA91F02343900839411 /* mycocoaPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycocoaPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B8BCAD1F02343900839411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93B8BCAF1F02343900839411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,26 +37,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939E0CB41F038FBD0024A292 /* AlienTabBar.framework in Frameworks */,
+				930AF81D1F04ABAD003BFB11 /* Tbabar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		939E0C7B1F038FBD0024A292 /* Class */ = {
+		930AF8181F04ABAD003BFB11 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				939E0C7C1F038FBD0024A292 /* .swift-version */,
-				939E0C7D1F038FBD0024A292 /* ios */,
+				930AF8191F04ABAD003BFB11 /* .swift-version */,
+				930AF81A1F04ABAD003BFB11 /* ios */,
 			);
 			path = Class;
 			sourceTree = "<group>";
 		};
-		939E0C7D1F038FBD0024A292 /* ios */ = {
+		930AF81A1F04ABAD003BFB11 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				939E0C7E1F038FBD0024A292 /* AlienTabBar.framework */,
+				930AF81B1F04ABAD003BFB11 /* Tbabar.framework */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -64,7 +64,7 @@
 		93B8BCA01F02343900839411 = {
 			isa = PBXGroup;
 			children = (
-				939E0C7B1F038FBD0024A292 /* Class */,
+				930AF8181F04ABAD003BFB11 /* Class */,
 				93B8BCAB1F02343900839411 /* mycocoaPodsDemo */,
 				93B8BCAA1F02343900839411 /* Products */,
 			);
@@ -161,7 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939E0CB31F038FBD0024A292 /* .swift-version in Resources */,
+				930AF81C1F04ABAD003BFB11 /* .swift-version in Resources */,
 				93B8BCBC1F02343900839411 /* LaunchScreen.storyboard in Resources */,
 				93B8BCB91F02343900839411 /* Assets.xcassets in Resources */,
 				93B8BCB71F02343900839411 /* Main.storyboard in Resources */,
@@ -303,6 +303,7 @@
 					"$(PROJECT_DIR)/navigation",
 					"$(PROJECT_DIR)/Class/ios",
 				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Class/ios/Tbabar.framework/Headers\"";
 				INFOPLIST_FILE = mycocoaPodsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -329,6 +330,7 @@
 					"$(PROJECT_DIR)/navigation",
 					"$(PROJECT_DIR)/Class/ios",
 				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Class/ios/Tbabar.framework/Headers\"";
 				INFOPLIST_FILE = mycocoaPodsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
