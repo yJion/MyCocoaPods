@@ -17,7 +17,7 @@
     [UITabBar appearance].unselectedItemTintColor = [UIColor orangeColor];
     // tabbar背景色
     // [UITabBar appearance].backgroundColor = WHITE_COLOR;
-    // [UITabBar appearance].barTintColor = [UIColor blackColor];
+     [UITabBar appearance].barTintColor = [UIColor blackColor];
     
     // 设置TabBar半透明状态，默认为yes，会遮挡住self.view的44像素的高度
     [UITabBar appearance].translucent  = NO;
